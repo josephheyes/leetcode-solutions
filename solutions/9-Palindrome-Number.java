@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 class Solution {
     public static void main(String[] args) {
         isPalindrome(121);
