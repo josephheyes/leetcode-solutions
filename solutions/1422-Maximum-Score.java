@@ -5,10 +5,6 @@ class Solution {
             String left = s.substring(0, i);
             String right = s.substring(i);
 
-            System.out.println(left);
-            System.out.println(right);
-            System.out.println(max);
-
             int lscore = 0, rscore = 0;
             for(int j = 0; j < left.length(); j++) {
                 if(left.charAt(j) == '0') {
