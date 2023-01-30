@@ -5,3 +5,4 @@ class Solution:
             if target-num in hashmap:
                 return [i, hashmap[target-num]]
             hashmap[num] = i
+
